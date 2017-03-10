@@ -6,10 +6,10 @@ wordlist= []
 
 def Randomwordgenerator():
 	"""parses text file to create list of random words"""
-	html = urllib2.urlopen("https://raw.githubusercontent.com/docdis/english-words/master/words2.txt")
+	html = urllib2.urlopen("https://raw.githubusercontent.com/mahsu/IndexingExercise/master/5000-words.txt")
 	html=html.read()
 	index=0
-	while(len(wordlist) < 4000):
+	while(len(wordlist) < 5000):
 		wordlist.append(html[index: html[index:].find("\n")])
 		html = html[html[index:].find("\n")+1:]
 
