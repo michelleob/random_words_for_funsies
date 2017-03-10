@@ -35,7 +35,7 @@ def addtolist(word):
 
 
 if __name__ == '__main__':
-	print Randomwordgenerator()
+	Randomwordgenerator()
 	print findword()
 	print findword()
 	print findword()
@@ -44,6 +44,6 @@ if __name__ == '__main__':
 	print findword()
 	print findword()
 	print findword()
-	print checkinlist("devote")
-	print checkinlist("farm")
-	print checkinlist("aaaaaaabbbskljd")
+	#print checkinlist("devote")
+	#print checkinlist("farm")
+	#print checkinlist("aaaaaaabbbskljd")
